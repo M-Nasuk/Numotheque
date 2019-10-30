@@ -1,0 +1,68 @@
+$bgColor: #E7E7E7;
+$blackColor: #000000;
+$hoverColor: #4ccaf3;
+$desktopMaxWidth: 1300px;
+$mobileMaxWidth: 767px;
+$fontRoboto: 'Roboto', 'Serif';
+$fontPoiret: 'Poiret One';
+
+$mediaPhone: 'screen and (max-width : 720px)';
+
+.flex {
+  display: flex;
+}
+
+.flex--row {
+  flex-direction: row;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $bgColor;
+  font-family: $fontRoboto;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: $desktopMaxWidth;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $blackColor;
+}
+
+p, a {
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
