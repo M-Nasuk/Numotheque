@@ -118,19 +118,36 @@
     .main-view {
       flex-direction: column;
 
-      div[class^="main-view-column"] {
+      > div[class^="main-view-column"] {
 
-        > div {
+        div {
           .prez {
             padding: 2rem;
             line-height: 3rem;
+
+            h3 {
+              font-size: 1.8rem;
+            }
+
+            a {
+              p {
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+
+        &:nth-child(2) {
+          div {
+            .prez {
+              padding: 2rem;
+              line-height: 3rem;
+            }
           }
         }
       }
     }
   }
-
-
 
   .footer  {
     .container {

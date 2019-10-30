@@ -149,7 +149,17 @@ img {
   .main .main-view {
     flex-direction: column;
   }
-  .main .main-view div[class^=main-view-column] > div .prez {
+  .main .main-view > div[class^=main-view-column] div .prez {
+    padding: 2rem;
+    line-height: 3rem;
+  }
+  .main .main-view > div[class^=main-view-column] div .prez h3 {
+    font-size: 1.8rem;
+  }
+  .main .main-view > div[class^=main-view-column] div .prez a p {
+    font-size: 1.8rem;
+  }
+  .main .main-view > div[class^=main-view-column]:nth-child(2) div .prez {
     padding: 2rem;
     line-height: 3rem;
   }
