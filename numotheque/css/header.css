@@ -115,6 +115,9 @@ img {
   align-items: center;
   justify-content: start;
 }
+.header .header-account div {
+  display: none;
+}
 .header .header-account a {
   text-transform: uppercase;
   border-left: 1px solid #000000;

@@ -71,6 +71,13 @@
 
     .header-account {
       width: 10%;
+      justify-content: center;
+      align-items: center;
+
+      div {
+        display: block;
+        font-size: 3rem;
+      }
 
       a {
         display: none;
@@ -110,6 +117,16 @@
     }
     .main-view {
       flex-direction: column;
+
+      div[class^="main-view-column"] {
+
+        > div {
+          .prez {
+            padding: 2rem;
+            line-height: 3rem;
+          }
+        }
+      }
     }
   }
 

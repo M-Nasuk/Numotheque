@@ -70,6 +70,10 @@
     align-items: center;
     justify-content: start;
 
+    div {
+      display: none;
+    }
+
     a {
       text-transform: uppercase;
       border-left: 1px solid $blackColor;
